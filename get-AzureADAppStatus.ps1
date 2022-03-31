@@ -378,7 +378,7 @@ foreach ($sP in $allServicePrincipals) {
 
 #region Export
 
-$appCollection | export-csv -LiteralPath $export_CSV -NoTypeInformation
+$appCollection | export-csv -LiteralPath $export_CSV -NoTypeInformation -Delimiter ";"
 
 #endregion
 
