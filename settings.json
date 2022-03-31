@@ -1,0 +1,44 @@
+{
+  "app": {
+    "live": {
+      "AppName": "",
+      "ClientID": "",
+      "RedirectURL": "",
+      "ClientSecret": "",
+      "TenantID": "",
+      "RequiredPermissions": {
+        "AppLevel": "Application.Read.All, Application.ReadWrite.All, Directory.Read.All",
+        "DelegatedLevel": ""
+      }
+    },
+    "dev": {
+      "AppName": "",
+      "ClientID": "",
+      "RedirectURL": "",
+      "ClientSecret": "",
+      "TenantID": "",
+      "RequiredPermissions": {
+        "AppLevel": "",
+        "DelegatedLevel": ""
+      }
+    },
+    "tst": {
+      "AppName": "",
+      "ClientID": "",
+      "RedirectURL": "",
+      "ClientSecret": "",
+      "TenantID": "",
+      "RequiredPermissions": {
+        "AppLevel": "",
+        "DelegatedLevel": ""
+      }
+    }
+  },
+  "LocalADSettings": {
+    "Domain": ""
+  },
+  "ExchangeOnlineSettings": {
+    "ExchangeOnlineUser": "",
+    "ExchangeOnlinePassword": ""
+  }
+}
